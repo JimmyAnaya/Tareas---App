@@ -8,18 +8,17 @@ export const Filters = {
 
 const state = {
     tareas: [
-        new Tarea('Piedra del alma'),
-        new Tarea('Piedra del tiempo'),
-        new Tarea('Piedra del infinito'),
-        new Tarea('Piedra del fuego'),
-        new Tarea('Piedra del agua')
+        new Tarea('Nunca parar de aprender'),
+        new Tarea('Sonreir'),
+        new Tarea('Meditar'),
+        new Tarea('Ejercitarse'),
+        new Tarea('Leer un libro')
     ],
     filter: Filters.All,
 }
 
 const initStore = () => {
     loadStore();
-    console.log('InitStore');
 }
 
 const loadStore = () => {
